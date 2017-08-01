@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+header{
+  height: 70px;
+}
+.rightB{
+  height: 100%;
+  background-color: #F39C12;
+  width: 70%;
+  float: right;
+}
+.logo{
+  width: 30%;
+  float: left;
+}
+
+#headerList{
+  float: right;
+  margin-top: 18px;
+}
+.list{
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+button:hover{
+  cursor: pointer;
+}
+button:focus{
+  outline: 0;
+}
+.myB{
+  padding: 10px;
+  width: 90px;
+  background: #3498DB;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #DEDEDE;
+  transition: color .5s;
+}
+.signup{
+  padding: 8px;
+  border: 3px solid #F32C12;
+}
+.myB:hover {
+  color: white;
+  transition: color .5s;
+}
+.sectionPro{
+  width: 100%;
+  height: 100vh;
+}
+#fSec{
+  height: 90vh;
+}
+
+.tableDiv{
+  width: 70%;
+  float: left;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.joinDiv{
+  margin-top: 130px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 655px){
+  .joinDiv{
+    margin-top: 80px;
+  }
+}
+.cName{
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 50px;;
+  color: #3498DB;
+}
+.cName span{
+  font-size: 40px;
+  position: relative;
+  left: -25px;
+  color: #F32C12;
+}
+#sp{
+  color: #F39C12;
+}
+.pr{
+  margin-left: 20px;
+  margin-bottom: 30px;
+  width: 70%;
+  font-size: 18px;
+}
+.jo{
+  text-align: center;
+}
+.jo h2{
+  font-size: 30px;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #3498DB;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  outline: none;
+  margin-top: 15px;
+  }
+
+.button:hover {
+  background-color: #F39C12;
+  box-shadow: 0px 15px 20px rgba(243,156,18, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+/*
+** Second Section **
+*/
+
+#ourS{
+  min-height: 100vh;
+  height: auto;
+  background-color: #EAEAEA;
+  width: 100%;
+  display: inline-block;
+}
+.serSec{
+  height: auto;
+}
+.sers{
+  display: inline-block;
+  margin: 40px auto 0 auto;
+  background-color: #EAEAEA;
+  width: 100%;
+}
+.services{
+  display: inline-block;
+  width: 25%;
+  min-width: 230px;
+  height: 480px;
+  margin: 2%;
+  border: 2px solid white;
+  border-radius: 5%;
+  padding: 5px;
+}
+.servHeaders{
+  letter-spacing: .7px;
+  margin-top: 15px;
+  font-size: 30px;
+}
+.servImgsDiv{
+  width: 100%;
+  height: 35%;
+  margin: 20px auto;
+}
+.servImgs{
+  margin-top: 10px;
+}
+#design{
+  position: relative;
+  top: -30px;
+  width: 70%;
+}
+#connect{
+  width: 50%;
+}
+#marketing{
+  width: 100%;
+}
+.services div{
+  font-size: 19px;
+}
+.moreBtn{
+  width: 110px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #2EE59D;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+/*
+Third Section
+*/
+
+#ourC{
+  height: auto;
+  min-height: 90vh;
+  width: 100%;
+  display: inline-block;
+}
+.secD1{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.secP{
+  font-size: 30px;
+}
+
+.portfolio{
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+}
+.fP{
+  margin: 0 auto;
+  height: 100%;
+  width: 90%;
+  max-width: 1130px;
+}
+
+.fP img:first-child{
+  margin-top: 10px;
+}
+.imgDiv{
+  margin: 0 auto;
+  display: inline-block;
+  width: 33%;
+  height: 200px;
+}
+.pImg{
+  height: 135px;
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  min-width: 200px;
+}
+
+@media screen and (max-width: 900px){
+
+  .imgDiv{
+    width: 300px;
+    height: 130px;
+  }
+
+}
+
+/*
+Fourth Section
+*/
+#contact{
+  color: white;
+  background-color: #181818;
+  height: 90vh;
+  display: block;
+  position: relative;
+}
+.contactDiv{
+  margin: 0 auto;
+}
+.contactP{
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
