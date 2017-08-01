@@ -105,6 +105,7 @@ button:focus{
 @media screen and (max-width: 400px){
   .tableDiv{
     width: 100%;
+    height: auto;
   }
   .joinDiv{
     width: 90%;
